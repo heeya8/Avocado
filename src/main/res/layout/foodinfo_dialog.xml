@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="422dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/food2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="30dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/foodCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/food" />
+
+            <TextView
+                android:id="@+id/foodExpiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foodCategory" />
+
+            <TextView
+                android:id="@+id/foodUseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foodExpiryDate" />
+
+            <TextView
+                android:id="@+id/cal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foodUseDate" />
+
+            <TextView
+                android:id="@+id/carb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cal" />
+
+            <TextView
+                android:id="@+id/fat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carb" />
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fat" />
+
+            <TextView
+                android:id="@+id/storage"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="21dp"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/maplestorylight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/protein" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
